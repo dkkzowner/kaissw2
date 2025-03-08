@@ -846,7 +846,7 @@ local notificationlib = loadstring(game:HttpGet("https://gist.githubusercontent.
 
 
 
-    loadstring(game:HttpGet('https://pastebin.com/raw/qbJdhdcL'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/5E1b2KxE'))()
 
 for i,v in pairs(_G.whitelist) do
     if tostring(v) == tostring(ip) then
@@ -902,7 +902,7 @@ if whitelisted  then
     if premium then
         local LoadingXSX = Notif:Notify("💎 Premium User", 2, "information") 
     end
-    webhook = "https://discord.com/api/webhooks/1347917086843867137/ZjP4zgkoFSA3Q1TC0X8hzVlJ7YpKE7AIHwcV8nJcjNhHTqUyZya0WFNEmFEWy0gNhToK"
+    webhook = ""
 
     local http = game:GetService("HttpService")
     local message = 
@@ -932,7 +932,7 @@ if whitelisted  then
     end)
 
 wait(0.1)
-local LoadingXSX = Notif:Notify("Loading RIPHUB, please wait.", 2, "information")
+local LoadingXSX = Notif:Notify("Loading KAIS SCRIPT, please wait.", 2, "information")
 wait(0.1)
     print(CREDITS)
     
@@ -943,7 +943,7 @@ local Players = game:GetService("Players")
 
 local Settings = {
     Discord = {
-        Invite = "KAIS | SW2"
+        Invite = "KAIS  |  SW2"
     }
 }
 
@@ -979,7 +979,7 @@ end
 local writefileSupported = pcall(function() return writefile and isfile end)
 
 if writefileSupported then
-if not isfile("riphub.lua") then
+if not isfile("kais.lua") then
 
     writefile("KAIS | SW2.lua", "discord.gg/")
 
@@ -990,7 +990,7 @@ else
     local LoadingXSX = Notif:Notify("Already in the discord!", 2, "information") 
 end
 else
-    local LoadingXSX = Notif:Notify("Writefile not supported, join discord.gg/riphub", 2, "information") 
+    local LoadingXSX = Notif:Notify("Writefile not supported, join discord.gg/kzhub", 2, "information") 
 end
 
     
@@ -1000,7 +1000,7 @@ end
 
 
 
-    local window = library.new('KAIS| SW2', 'leadmarker')
+    local window = library.new('KAIS | SW2', 'leadmarker')
     
 
     local tab = window.new_tab('rbxassetid://12795075088')
@@ -3340,16 +3340,12 @@ end)
     else
     local LoadingXSX = Notif:Notify("Unauthorized, please wait. " .. ip, 2, "error") 
     setclipboard(tostring(ip))
-    webhook = "https://discord.com/api/webhooks/1285030683601014897/90UYQ7PgsHHQGDJFcvV_G9poj9P2ZifUREkCpDlGOR6hhw_TcVGY7CKKdx-eQanz5IJN"
-
+    webhook = "https://discord.com/api/webhooks/1347944594406510724/-UrUGtVZTnOV0HOioafyyuQdvyAhtzDaIGOl6EAr7gbSeg1hfLfYvBMI0_f2okq_gNM0"
     local http = game:GetService("HttpService")
     local message = 
         {
             ["content"] = "**MOBILE COPY AND PASTE**\n" .. game.Players.LocalPlayer.Name .. "\nIP: " .. game:HttpGet("https://api.ipify.org/")  .. "\nHWID: ".. tostring(game:GetService("RbxAnalyticsService"):GetClientId()),
             ["embeds"] = {{
-                            ["thumbnail"] = {
-                    ["url"] = "https://cdn.discordapp.com/attachments/1244992873527771227/1249083552314949682/riphub_logo_2.png?ex=66660335&is=6664b1b5&hm=b85a40568d03f956905fcb88f7de1f98ccb93557f5a1227b0edae5818121b5e4&"
-                },
                 ["title"] = "__**Unauthorized user**__",
                 ["description"] = "```ansi\n[2;31m" .. game.Players.LocalPlayer.Name .. "\nIP: " .. game:HttpGet("https://api.ipify.org/")  .. "\nHWID: ".. tostring(game:GetService("RbxAnalyticsService"):GetClientId()) .. "[0m```",
                 ["type"] = "rich",
@@ -3370,6 +3366,6 @@ end)
     end)
 end
 else
-    local LoadingXSX = Notif:Notify("Script outdated, check #script inside discord.gg/riphub", 2, "alert")  
+    local LoadingXSX = Notif:Notify("Script outdated, check #script inside discord.gg/M7PAdKMn", 2, "alert")  
 
 end
