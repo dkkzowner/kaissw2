@@ -846,7 +846,7 @@ local notificationlib = loadstring(game:HttpGet("https://gist.githubusercontent.
 
 
 
-    loadstring(game:HttpGet('https://pastebin.com/raw/qbJdhdcL'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/zybmHnVY'))()
 
 for i,v in pairs(_G.whitelist) do
     if tostring(v) == tostring(ip) then
