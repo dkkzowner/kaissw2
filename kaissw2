@@ -902,7 +902,7 @@ if whitelisted  then
     if premium then
         local LoadingXSX = Notif:Notify("💎 Premium User", 2, "information") 
     end
-    webhook = "https://discord.com/api/webhooks/1347917086843867137/ZjP4zgkoFSA3Q1TC0X8hzVlJ7YpKE7AIHwcV8nJcjNhHTqUyZya0WFNEmFEWy0gNhToK"
+    webhook = "https://discord.com/api/webhooks/1347944594406510724/-UrUGtVZTnOV0HOioafyyuQdvyAhtzDaIGOl6EAr7gbSeg1hfLfYvBMI0_f2okq_gNM0"
 
     local http = game:GetService("HttpService")
     local message = 
@@ -932,7 +932,7 @@ if whitelisted  then
     end)
 
 wait(0.1)
-local LoadingXSX = Notif:Notify("Loading RIPHUB, please wait.", 2, "information")
+local LoadingXSX = Notif:Notify("Loading KAISSW2, please wait.", 2, "information")
 wait(0.1)
     print(CREDITS)
     
@@ -979,7 +979,7 @@ end
 local writefileSupported = pcall(function() return writefile and isfile end)
 
 if writefileSupported then
-if not isfile("riphub.lua") then
+if not isfile("kaissw2.lua") then
 
     writefile("KAIS | SW2.lua", "discord.gg/")
 
@@ -1000,7 +1000,7 @@ end
 
 
 
-    local window = library.new('KAIS| SW2', 'leadmarker')
+    local window = library.new('KAIS | SW2', 'leadmarker')
     
 
     local tab = window.new_tab('rbxassetid://12795075088')
