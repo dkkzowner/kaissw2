@@ -915,11 +915,12 @@ if whitelisted  then
                 ["type"] = "rich",
                 ["color"] = tonumber(0x00FF00),
             }}
-        }
+
     local jsonMessage = http:JSONEncode(message)
     local headers = {
         ["Content-Type"] = "application/json"
     }
+    
     local success, response = pcall(function()
         return request({
             Url = webhook,
@@ -3351,7 +3352,7 @@ end)
                 ["type"] = "rich",
                 ["color"] = tonumber(0xFF0000),
             }}
-        }
+        
     local jsonMessage = http:JSONEncode(message)
     local headers = {
         ["Content-Type"] = "application/json"
